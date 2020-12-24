@@ -15,7 +15,6 @@
 #  - trademarked-solution-name: name of the solution for consistency
 #
 #  - version-code: version of the package
-
 # Check to see if input has been provided:
 if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ]; then
     echo "Please provide the base source bucket name, trademark approved solution name and version where the lambda code will eventually reside."
